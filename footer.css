@@ -1,0 +1,78 @@
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+        0 0 2px rgb(0 0 0 / 7%); */
+}
+
+.footer-container {
+    display: flex;
+    align-content: center;
+}
+
+.footer-container .links-container ul:hover {
+    cursor: pointer;
+}
+
+.footer-container .links-container ul li:hover {
+    color: rgba(57, 62, 63, 0.315);
+}
+.footer-container .links-container h3 {
+    font-size: 19px;
+    text-decoration: underline;
+    padding-left: 40px;
+    display: flex;
+    font-weight: 400;
+}
+
+.footer-container .links-container ul {
+    line-height: 3.4;
+    list-style-type: none;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.footer-icons .social-icons {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.footer-icons .social-icons ul {
+    display: flex;
+}
+
+.footer-icons .social-icons ul li {
+    list-style-type: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.footer-icons .social-icons ul li:hover {
+    color: rgba(57, 62, 63, 0.315);
+}
+
+.privacy-container .policy ul li {
+    cursor: pointer;
+}
+
+.privacy-container .policy ul span {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.privacy-container .policy ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.privacy-container .policy ul li:hover {
+    text-decoration: underline;
+}
+
+.trademark-container .reserved {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
